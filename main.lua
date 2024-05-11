@@ -23,8 +23,6 @@ function Custom_resolver()
     end
 end
 
-
-
 client.add_callback('post_anim_update', function()
     if custom_resolver:get() == true then
         Custom_resolver()
